@@ -25,6 +25,7 @@ def load_data():
     df['time'] = pd.to_datetime(df['time'], format='%Y-%m-%d %H:%M:%S')
     df.set_index('time', inplace=True)
     print("DataFrame cargado correctamente")
+    print("Estamos listos para correr el tablero")
     return df
     
     
